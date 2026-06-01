@@ -1,0 +1,23 @@
+{
+  "name": "codex-feishu-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Minimal Feishu private chat bridge for official Codex CLI",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:bg": "powershell -ExecutionPolicy Bypass -File scripts/start-bridge.ps1",
+    "stop:bg": "powershell -ExecutionPolicy Bypass -File scripts/stop-bridge.ps1",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.60.0",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
