@@ -7,6 +7,7 @@ Thin Feishu private-chat bridge for the official Codex CLI.
 This repository is part of a Codex-assisted OSS maintenance workflow. It is used to route human-approved Feishu requests into local Codex sessions for PR triage, CI follow-up, review response, and evidence tracking.
 
 - Public OSS contribution evidence: [docs/codex-oss-evidence.md](./docs/codex-oss-evidence.md)
+- Workflow overview: [docs/workflow.md](./docs/workflow.md)
 - Writes stay human-approved; monitoring and summarization can remain read-only.
 - External account actions such as CLA signing, deployment authorization, and legal confirmations stay outside automation.
 

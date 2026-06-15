@@ -7,6 +7,7 @@
 这个仓库也是一套 Codex 辅助开源维护工作流的一部分：把人工确认过的飞书请求转入本机 Codex 会话，用于 PR 巡检、CI 跟进、review 回复和贡献证据留档。
 
 - 公开 OSS 贡献证据：[docs/codex-oss-evidence.md](./docs/codex-oss-evidence.md)
+- 工作流说明：[docs/workflow.md](./docs/workflow.md)
 - 写操作保持人工确认；监控、总结和巡检可以保持只读。
 - CLA 签署、部署授权、法律确认等账号/合规动作不交给自动化执行。
 

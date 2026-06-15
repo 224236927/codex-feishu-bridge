@@ -5,3 +5,4 @@ coverage/
 docs/*
 !docs/
 !docs/codex-oss-evidence.md
+!docs/workflow.md
